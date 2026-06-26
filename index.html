@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+      <div class="logo" id="logo"></div>
+
+      <nav>
+          <a href="#listen">Music</a>
+          <a href="#tour">Shows</a>
+          <a href="#contact">Booking</a>
+      </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="artist-name">
+      <div class="hero__copy">
+        <p class="eyebrow" id="artist-tagline"></p>
+        <h1 id="artist-name"></h1>
+        <p class="lede" id="artist-description"></p>
+        <div class="actions">
+          <a class="button button--primary" id="spotify-link" href="https://open.spotify.com/" target="_blank">
+            &#127925; Spotify
+          </a>
+
+          <a class="button button--secondary" id="apple-link" href="https://music.apple.com/" target="_blank">
+            &#127822; Apple Music
+          </a>
+
+          <a class="button button--secondary" id="youtube-link" href="https://www.youtube.com/" target="_blank">
+            &#9654; YouTube
+          </a>
+
+          <a class="button button--secondary" id="instagram-link" href="https://www.instagram.com/" target="_blank">
+            &#128247; Instagram
+          </a>
+
+          <a class="button button--secondary" id="facebook-link" href="https://www.facebook.com/" target="_blank">
+            &#128077; Facebook
+          </a>
+
+          <a class="button button--secondary" id="tiktok-link" href="https://www.tiktok.com/" target="_blank">
+            &#127916; TikTok
+          </a>
+
+          <a id="booking-link" class="button button--secondary" href="mailto:Mixmusicllc@gmail.com">
+            &#128231; Book This Artist
+          </a>
+        </div>
+      </div>
+      <img class="hero__image" src="images/artist.jpg" alt="Portrait of the featured artist holding a guitar">
+    </section>
+
+    <section class="release" id="listen" aria-labelledby="release-title">
+      <img class="release__cover" src="images/album.jpg" alt="Abstract album artwork">
+      <div>
+        <p class="eyebrow">Featured release</p>
+        <h2 id="release-title"></h2>
+        <p id="release-description"></p>
+      </div>
+    </section>
+
+    <section class="music-player">
+      <p class="eyebrow">Stream Now</p>
+      <h2>Listen Here</h2>
+
+      <iframe
+        id="spotify-embed"
+        style="border-radius:12px"
+        src=""
+        width="100%"
+        height="152"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <section class="tour" id="tour" aria-labelledby="tour-title">
+      <p class="eyebrow">Upcoming shows</p>
+      <h2 id="tour-title">Live Dates</h2>
+      <ul class="tour__list">
+        <li><span>Jul 18</span><strong>Los Angeles, CA</strong><em>The Echo Room</em></li>
+        <li><span>Aug 02</span><strong>Portland, OR</strong><em>Nightlight Hall</em></li>
+        <li><span>Aug 16</span><strong>Seattle, WA</strong><em>Harbor Stage</em></li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">Booking & Contact</p>
+      <h2>Work With This Artist</h2>
+      <p>For booking, features, interviews, or collaborations, send a message below.</p>
+
+      <a id="contact-booking-link" class="button button--primary contact__button" href="mailto:Mixmusicllc@gmail.com">
+        &#128231; Email for Booking
+      </a>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
