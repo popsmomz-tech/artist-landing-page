@@ -37,8 +37,6 @@ setHref("spotify-link", artistData.spotify);
 setHref("apple-link", artistData.appleMusic);
 setHref("youtube-link", artistData.youtube);
 setHref("instagram-link", artistData.instagram);
-setHref("facebook-link", artistData.facebook);
-setHref("tiktok-link", artistData.tiktok);
 setHref("booking-link", `mailto:${artistData.bookingEmail}`);
 setSrc("spotify-embed", getSpotifyEmbedUrl(artistData.spotify));
 
@@ -72,8 +70,6 @@ document.getElementById("spotify-link").href = artistData.spotify;
 document.getElementById("apple-link").href = artistData.appleMusic;
 document.getElementById("youtube-link").href = artistData.youtube;
 document.getElementById("instagram-link").href = artistData.instagram;
-document.getElementById("facebook-link").href = artistData.facebook;
-document.getElementById("tiktok-link").href = artistData.tiktok;
 
 document.getElementById("booking-link").href = `mailto:${artistData.bookingEmail}`;
 document.getElementById("contact-booking-link").href = `mailto:${artistData.bookingEmail}`;

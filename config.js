@@ -9,8 +9,6 @@ const artistData = {
   appleMusic: "https://music.apple.com/us/artist/mixxrolls/1772487523",
   youtube: "https://www.youtube.com/channel/UCEJf7OGpUX7RZ4Gv3giHzdA?si=J4x4IQGJtG8riURe",
   instagram: "https://www.instagram.com/mixxrolls?igsh=YzYyamdnZ3R6OGM=",
-  facebook: "https://www.facebook.com/",
-  tiktok: "https://www.tiktok.com/",
 
   bookingEmail: "Mixmusicllc@gmail.com"
 };
